@@ -3,7 +3,7 @@
 
   "name": "Retina Twitter",
   "description": "This extension replaces low resolution twitter avatars with a retina-ready equivalent.",
-  "version": "0.1",
+  "version": "1.1",
   "icons": { "48": "logo-48.png",
               "128": "logo-128.png" },
 
@@ -15,14 +15,8 @@
     }
   ],
 
-  // "background": {
-  //   "scripts": ["background.js"],
-  //   "persistent": false
-  // },
-
   "permissions": [
-    "https://twitter.com/",
-    "activeTab"
+    "https://twitter.com/"
   ],
 
   "web_accessible_resources": [
